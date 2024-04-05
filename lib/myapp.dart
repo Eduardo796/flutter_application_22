@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 100),
+            const SizedBox(height: 80),
             SizedBox(
               width: double.infinity,
               child: Row(
@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
                   ),
                   Container(),
                   const SizedBox(
-                    height: 300,
+                    height: 180,
                   )
                 ],
               ),
